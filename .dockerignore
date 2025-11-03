@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv
+venv/
+env/
+.env
+.git
+.gitignore
+Dockerfile
+docker-compose*.yml
+build/
+dist/
+*.egg-info
+__pycache__
+tests/
+/.pytest_cache
+*.log
+*.sqlite3
+# Do NOT ignore data/books_data.csv by default — consider externalizing large datasets via volumes
